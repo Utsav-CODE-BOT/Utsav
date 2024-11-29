@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() {
+    int p1, p2, p3, p4, p5, total;
+
+    printf("principle amount:\n");
+    scanf("%d", &p1);
+
+    printf("time:\n");
+    scanf("%d", &p2);
+
+    printf("rate of intrest:\n");
+    scanf("%d", &p3);
+
+    printf("no of months :\n");
+    scanf("%d", &p4);
+
+    simple= p1*p2*p3/100;
+     coumpound = p1(1+(r/12)^12t)-p1;
+
+    printf("principle amount: %d\n", p1);
+    printf("time: %d\n", p2);
+    printf("rot: %d\n", p3);
+    printf("no of months: %d\n", p4);
+    printf("The simple intrest: %d\n", simple);
+    printf("The coumpound intrest: %d\n",coumpound );
+    return 0;
+}
+
