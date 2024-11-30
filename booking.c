@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define ROWS 5    // Number of rows in the seating chart
-#define COLS 5    // Number of seats per row
+#define ROWS 4   // Number of rows in the seating chart
+#define COLS 4   // Number of seats per row
 
 // Function to display the seating chart
 void displaySeats(char seats[ROWS][COLS]) {
